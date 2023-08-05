@@ -1,0 +1,6 @@
+export { default as Hero } from './Hero/Hero'
+export { default as Hello } from './Hello/Hello'
+export { default as New } from './New/New'
+export { default as Courses } from './Courses/Courses'
+export { default as Schedules } from './Schedules/Schedules'
+export { default as Contact } from './Contact/Contact'

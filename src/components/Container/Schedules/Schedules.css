@@ -1,0 +1,66 @@
+.ScheduleView{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height:125vh;
+    background-color:var(--color-darkest);
+    overflow: hidden;
+    
+}
+.Schedultitle{
+    padding-top: 90px;
+    color: var(--color-light);
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+     height: 35vh;
+
+}
+    .timetable{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+table{
+    text-align: center;   
+    width: 80%;
+    color:var(--color-light);
+}
+td{
+    font-weight:700;
+    height:70px;
+    width: 130px;
+}
+td , tr{
+    border: 1px solid black;
+
+}
+
+.blue{
+    background-color:var(--color-primary)
+}
+
+@media only screen and (max-width:600px){
+    .ScheduleView{
+        width: 100%;
+        position: relative;
+        height:90vh;
+    }
+    table{
+        overflow: hidden;
+        margin-top:-50px;
+        text-align: center;   
+        width: 95%;
+        height:40vh;
+        color:var(--color-light);
+    }
+ 
+    td{
+        font-weight:700;
+        font-size: 8px;
+        height:50px;
+        width: 190px !important;
+    }
+
+}

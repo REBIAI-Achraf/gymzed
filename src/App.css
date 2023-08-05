@@ -1,0 +1,32 @@
+
+:root {
+    --color-dark:rgba(0, 8, 17, 0.699);
+    --color-darkest:#0c0c0e;
+    --color-light:#ffffff;
+    --background-color:#fafafafa;
+    --color-primary:#26b3eb;
+    --distance-primary:50px;
+    --padding-primary:var(--distance-primary);
+    --margin-primary:var(--distance-primary);
+    --border-radius-primary:calc(var(--distance-primary)/2);
+    --font-size-primary:27px;
+    --font-size-secondary:17px;
+    --font-weight-bold:700;
+    --font-weight-normal:500;
+    --font-family-primary:'Poppins', sans-serif;
+    --transition-1: .4s;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@500;700&display=swap');
+
+body{
+    background-color:var(--color-darkest);
+    font-family: var(--font-family-primary);
+}
+
+ul{
+  list-style-type:none;
+}
+a {
+  text-decoration: none;
+}

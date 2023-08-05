@@ -1,0 +1,69 @@
+.hero {
+    padding:30px;
+    display: flex;
+    flex-direction: column; /* Les éléments sont disposés verticalement */
+    justify-content: center; /* Centre les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    height: 100vh; /* Hauteur de la div hero à 100% de la hauteur de l'écran */
+    background-image: url('../../../assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--color-light);
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-dark); 
+    z-index: 1; 
+  }
+  .hero-h2 h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+  }
+  
+  .hero-h1 h1 {
+    font-size: 3.2em;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:var(--font-weight-bold);
+    z-index: 2;
+
+}
+  
+  .hero div {
+    display: flex;
+    z-index: 2;
+
+  }
+  
+ 
+  span{
+    color: var(--color-primary);
+  }
+
+a {
+  text-decoration: none;
+  color: var(--color-light)
+}
+/* -----------------------Media Queries----------------------- */
+  @media only screen and (max-width: 600px) {
+   
+    .hero{
+      background-image: url('../../../assets/images/men2.jpg');
+
+    }
+    .hero h2{
+    font-size: 1.1em;
+    }
+    .hero h1{
+        font-size: 1.8em;
+        }
+  }

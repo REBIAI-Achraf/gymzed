@@ -1,0 +1,134 @@
+.Hello {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    color: var(--color-darkest);
+    margin: 0%;
+    width:100%;
+    height:90vh;
+    background-color:#eeeeee;
+    padding: 0 50px;
+}
+
+.Hello1{
+    width:55%;
+    padding: 50px;
+}
+.Hello2{
+width:50%;
+display: flex;
+flex-direction:row;
+
+}
+
+.Card{
+    height:55vh;
+    width: 40vh;
+    margin: 10px;
+    color:var(--color-dark);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+    transition:var(--transition-1);
+    cursor: pointer;
+}
+
+.Card:hover{
+    transition:var(--transition-1);
+    color: var(--color-darkset);
+}
+.Card img {
+    height:70%;
+    width: 100%;
+}
+.Card .info {
+  margin-top:15px;
+}
+.Card a {
+    font-size:20px;
+    cursor: pointer;
+}
+
+/* -----------------------Media Queries----------------------- */
+
+@media only screen and (max-width: 900px) {
+    .Hello{
+        flex-direction: column;
+        height:80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .Hello1{     
+         width:100%;    
+         height: 50%;
+         margin-top:50px;
+
+        }
+        .Hello1 h2{
+            font-size:1.6em;
+            font-weight: 700;
+        }   
+        .Hello2{
+            flex-direction:row;
+            width:100%;       
+            height: 50%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+    
+        .Card{
+            height:40vh;
+            width: 30vh;
+            margin: 20px;
+            font-size: 13px;
+        }
+    }
+
+
+    
+@media only screen and (max-width: 600px) {
+    .Hello{
+        flex-direction: column;
+        height:150vh;
+        width: 100%;
+    }
+
+    .Hello1{
+        height:45vh;
+        margin-top:50px;
+         width:140%;
+       
+
+}
+
+    .Hello2{
+        flex-direction: column;
+        width:120%;       
+        height:100vh;
+    
+    
+    }
+.Card{
+    height:38vh;
+    width: 30vh;
+    font-size: 18px;
+    color: var(--color-darkest);
+}
+.Card img{
+    height:75%;   
+}
+.Card h4{
+    margin-bottom:5px;
+    font-size: 18px;
+}
+.Card a {
+    font-size:15px;
+    cursor: pointer;
+}
+
+    }
+
+ 

@@ -1,0 +1,53 @@
+.Footer{
+    height: 25vh;
+    width: 100%;
+    background-color:var(--color-light);
+    display: flex;
+    flex-direction: row;
+    border-top: 1px rgb(231, 231, 231) solid;
+    
+}
+
+.F2,.F1{
+    width: 50%;
+    margin:40px  100px;
+}
+
+.F2{
+    display: flex;
+}
+
+.Footer p{
+    padding:10px;
+}
+.Footer span{
+margin :10px;
+}
+@media only screen and (max-width:600px){
+    .Footer{
+        overflow: hidden;
+        height:25vh;
+        width: 100%;
+        background-color:var(--color-light);
+        display: flex;
+        font-size: 12px;
+        flex-direction:column;
+        text-align: center;
+        border-top: 1px rgb(231, 231, 231) solid;
+        
+    }
+    .F2{
+    
+        align-self: center;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        margin-top: -50px;
+
+    }
+.Footer p{
+    margin: -5px;
+    padding:-10px;
+}
+}
