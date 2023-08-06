@@ -19,7 +19,7 @@ const Header = () => {
           <a href="#"className="nav-link active " aria-current="page" >Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="gymzed/#About" >About Us</a>
+          <a className="nav-link" href="/gymzed/#About" >About Us</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href='/#Courses'>Classes</a>
