@@ -15,7 +15,7 @@ const Hero = () => {
       <h2>new way to build a healthy lifestyle !</h2>
       </div>
     <div className="hero-h1" data-aos="fade-up" data-aos-duration="1500">
-      <h1>Upgrade your <span><GiAbdominalArmor /></span> at<br/> Gymzed Fitness</h1></div> 
+      <h1>Upgrade your <span><GiAbdominalArmor /></span> at<br/> Gymzed Fitness !</h1></div> 
     <div  data-aos="fade-up" data-aos-duration="1700">
     <Button>Get Started</Button>
     <Button2 href="#About">Learn More</Button2>
