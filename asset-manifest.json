@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gymzed/static/css/main.a400ff0f.css",
+    "main.js": "/gymzed/static/js/main.b019b75c.js",
+    "static/media/hero-bg.jpg": "/gymzed/static/media/hero-bg.a8e0329cc1cbf884c7c8.jpg",
+    "static/media/team-image01.jpg": "/gymzed/static/media/team-image01.f2db60ee562cdf8c000c.jpg",
+    "static/media/yoga-class.jpg": "/gymzed/static/media/yoga-class.03c3fd265728aaf8c7a3.jpg",
+    "static/media/cardio-class.jpg": "/gymzed/static/media/cardio-class.493ae81cac514c1d0d79.jpg",
+    "static/media/men2.jpg": "/gymzed/static/media/men2.cf6d0432fc55d0c021ce.jpg",
+    "static/media/coach1.jpg": "/gymzed/static/media/coach1.240ae405b4388aef716f.jpg",
+    "static/media/crossfit-class.jpg": "/gymzed/static/media/crossfit-class.21bd54065179b4814760.jpg",
+    "index.html": "/gymzed/index.html",
+    "main.a400ff0f.css.map": "/gymzed/static/css/main.a400ff0f.css.map",
+    "main.b019b75c.js.map": "/gymzed/static/js/main.b019b75c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a400ff0f.css",
+    "static/js/main.b019b75c.js"
+  ]
+}
