@@ -11,7 +11,7 @@ const Schedules = () => {
       }, []);
 
   return (
-    <div className="ScheduleView" id='sch'>
+    <div className="ScheduleView" id='Schedules'>
         <div className="Schedultitle" data-aos="fade-up" data-aos-duration="1000">    
         <h4>our weekly GYM schedules</h4>
         <h2>Workout Timetable</h2>

@@ -16,6 +16,8 @@ color: var(--color-light);
 font-size:var(--font-size-primary);
 transition:all .7s;
 cursor: pointer;
+background-color: transparent;
+border:none
 }
 .navbar-brand span{
     color: var(--color-primary);
@@ -32,6 +34,7 @@ cursor: pointer;
     transition:all .7s;
 
 }
+
 .nav-link{   
      cursor: pointer;
      font-size: var( --font-size-secondary);
@@ -48,6 +51,7 @@ cursor: pointer;
      transition:all .7s;
 
 }
+
 .active {
 color:var(--color-primary) !important;
 }

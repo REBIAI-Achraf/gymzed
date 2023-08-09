@@ -26,17 +26,17 @@ flex-direction:row;
     height:55vh;
     width: 40vh;
     margin: 10px;
-    color:var(--color-dark);
+    color:var(--color-darkest);
     background-color: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
-    transition:var(--transition-1);
+    transition: .4s;
     cursor: pointer;
 }
 
 .Card:hover{
     transition:var(--transition-1);
-    color: var(--color-darkset);
+    transition: .4s;
 }
 .Card img {
     height:70%;
@@ -45,8 +45,9 @@ flex-direction:row;
 .Card .info {
   margin-top:15px;
 }
-.Card a {
+.Card .insta {
     font-size:20px;
+    color: var(--color-primary);
     cursor: pointer;
 }
 
