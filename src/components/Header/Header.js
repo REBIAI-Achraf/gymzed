@@ -35,7 +35,7 @@ return (
           <button className="nav-link active " onClick={onClick0}aria-current="page" >Home</button>
         </li>
         <li className="nav-item">
-          <button className="nav-link" onClick={onClick} >About</button>
+          <button className="nav-link" onClick={onClick} >About-us</button>
         </li>
         <li className="nav-item">
           <button className="nav-link" onClick={onClick2}>Classes</button>
