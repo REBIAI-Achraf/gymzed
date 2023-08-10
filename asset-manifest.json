@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/REBIAI-Achraf/gymzed1/static/css/main.76b909b0.css",
-    "main.js": "/REBIAI-Achraf/gymzed1/static/js/main.54f6ff2e.js",
-    "static/media/hero-bg.jpg": "/REBIAI-Achraf/gymzed1/static/media/hero-bg.a8e0329cc1cbf884c7c8.jpg",
-    "static/media/team-image01.jpg": "/REBIAI-Achraf/gymzed1/static/media/team-image01.f2db60ee562cdf8c000c.jpg",
-    "static/media/yoga-class.jpg": "/REBIAI-Achraf/gymzed1/static/media/yoga-class.03c3fd265728aaf8c7a3.jpg",
-    "static/media/cardio-class.jpg": "/REBIAI-Achraf/gymzed1/static/media/cardio-class.493ae81cac514c1d0d79.jpg",
-    "static/media/men2.jpg": "/REBIAI-Achraf/gymzed1/static/media/men2.cf6d0432fc55d0c021ce.jpg",
-    "static/media/coach1.jpg": "/REBIAI-Achraf/gymzed1/static/media/coach1.240ae405b4388aef716f.jpg",
-    "static/media/crossfit-class.jpg": "/REBIAI-Achraf/gymzed1/static/media/crossfit-class.21bd54065179b4814760.jpg",
-    "index.html": "/REBIAI-Achraf/gymzed1/index.html",
-    "main.76b909b0.css.map": "/REBIAI-Achraf/gymzed1/static/css/main.76b909b0.css.map",
-    "main.54f6ff2e.js.map": "/REBIAI-Achraf/gymzed1/static/js/main.54f6ff2e.js.map"
+    "main.css": "/gymzed1/static/css/main.430c1d77.css",
+    "main.js": "/gymzed1/static/js/main.32388f32.js",
+    "static/media/hero-bg.jpg": "/gymzed1/static/media/hero-bg.a8e0329cc1cbf884c7c8.jpg",
+    "static/media/team-image01.jpg": "/gymzed1/static/media/team-image01.f2db60ee562cdf8c000c.jpg",
+    "static/media/yoga-class.jpg": "/gymzed1/static/media/yoga-class.03c3fd265728aaf8c7a3.jpg",
+    "static/media/cardio-class.jpg": "/gymzed1/static/media/cardio-class.493ae81cac514c1d0d79.jpg",
+    "static/media/men2.jpg": "/gymzed1/static/media/men2.cf6d0432fc55d0c021ce.jpg",
+    "static/media/coach1.jpg": "/gymzed1/static/media/coach1.240ae405b4388aef716f.jpg",
+    "static/media/crossfit-class.jpg": "/gymzed1/static/media/crossfit-class.21bd54065179b4814760.jpg",
+    "index.html": "/gymzed1/index.html",
+    "main.430c1d77.css.map": "/gymzed1/static/css/main.430c1d77.css.map",
+    "main.32388f32.js.map": "/gymzed1/static/js/main.32388f32.js.map"
   },
   "entrypoints": [
-    "static/css/main.76b909b0.css",
-    "static/js/main.54f6ff2e.js"
+    "static/css/main.430c1d77.css",
+    "static/js/main.32388f32.js"
   ]
 }
