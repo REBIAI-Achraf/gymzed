@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="hero">
     <div className="hero-h2" data-aos="fade-up" data-aos-duration="1000">
-      <h2>new way to build a healthy lifestyle !</h2>
+      <h2>new way to build a healthy lifestyle </h2>
       </div>
     <div className="hero-h1" data-aos="fade-up" data-aos-duration="1500">
       <h1>Upgrade your <span><GiAbdominalArmor /></span> at<br/> Gymzed Fitness !</h1></div> 
