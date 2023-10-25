@@ -60,6 +60,9 @@ a {
       background-image: url('../../../assets/images/men2.jpg');
 
     }
+        .hero::after {
+            height:110%;
+        }
     .hero h2{
     font-size: 1.1em;
     }
